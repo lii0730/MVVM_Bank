@@ -8,17 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		996231A427F3E17800F3C271 /* MVVM_BankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231A327F3E17800F3C271 /* MVVM_BankApp.swift */; };
-		996231A627F3E17800F3C271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231A527F3E17800F3C271 /* ContentView.swift */; };
 		996231A827F3E17C00F3C271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996231A727F3E17C00F3C271 /* Assets.xcassets */; };
 		996231AB27F3E17C00F3C271 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996231AA27F3E17C00F3C271 /* Preview Assets.xcassets */; };
+		996231B527F3EDA000F3C271 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231B427F3EDA000F3C271 /* Double+Extensions.swift */; };
+		996231B727F3EDFF00F3C271 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231B627F3EDFF00F3C271 /* URL+Extensions.swift */; };
+		996231B927F3EE7300F3C271 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231B827F3EE7300F3C271 /* View+Extensions.swift */; };
+		996231BC27F3EEDA00F3C271 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231BB27F3EEDA00F3C271 /* Account.swift */; };
+		996231BE27F3EF9B00F3C271 /* AccoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231BD27F3EF9B00F3C271 /* AccoutService.swift */; };
+		996231C027F3F25900F3C271 /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231BF27F3F25900F3C271 /* AccountSummaryViewModel.swift */; };
+		996231C227F3F29D00F3C271 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231C127F3F29D00F3C271 /* AccountViewModel.swift */; };
+		996231C527F3F6D000F3C271 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231C427F3F6D000F3C271 /* AccountSummaryScreen.swift */; };
+		996231C827F3F87200F3C271 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231C727F3F87200F3C271 /* AccountListView.swift */; };
+		996231CA27F4206D00F3C271 /* CreateAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231C927F4206D00F3C271 /* CreateAccountRequest.swift */; };
+		996231CC27F4212B00F3C271 /* CreateAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231CB27F4212B00F3C271 /* CreateAccountResponse.swift */; };
+		996231CE27F4231200F3C271 /* AddAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231CD27F4231200F3C271 /* AddAccountViewModel.swift */; };
+		996231D127F42B6900F3C271 /* AddAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996231D027F42B6900F3C271 /* AddAccountScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		996231A027F3E17800F3C271 /* MVVM_Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996231A327F3E17800F3C271 /* MVVM_BankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_BankApp.swift; sourceTree = "<group>"; };
-		996231A527F3E17800F3C271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		996231A727F3E17C00F3C271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996231AA27F3E17C00F3C271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		996231B427F3EDA000F3C271 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		996231B627F3EDFF00F3C271 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		996231B827F3EE7300F3C271 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		996231BB27F3EEDA00F3C271 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		996231BD27F3EF9B00F3C271 /* AccoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccoutService.swift; sourceTree = "<group>"; };
+		996231BF27F3F25900F3C271 /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
+		996231C127F3F29D00F3C271 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		996231C427F3F6D000F3C271 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
+		996231C727F3F87200F3C271 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		996231C927F4206D00F3C271 /* CreateAccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRequest.swift; sourceTree = "<group>"; };
+		996231CB27F4212B00F3C271 /* CreateAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountResponse.swift; sourceTree = "<group>"; };
+		996231CD27F4231200F3C271 /* AddAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewModel.swift; sourceTree = "<group>"; };
+		996231CF27F425F700F3C271 /* Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Example.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		996231D027F42B6900F3C271 /* AddAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +60,7 @@
 		9962319727F3E17800F3C271 = {
 			isa = PBXGroup;
 			children = (
+				996231CF27F425F700F3C271 /* Example.playground */,
 				996231A227F3E17800F3C271 /* MVVM_Bank */,
 				996231A127F3E17800F3C271 /* Products */,
 			);
@@ -51,8 +77,13 @@
 		996231A227F3E17800F3C271 /* MVVM_Bank */ = {
 			isa = PBXGroup;
 			children = (
+				996231C627F3F86700F3C271 /* Views */,
+				996231C327F3F6BE00F3C271 /* Screens */,
+				996231BA27F3EEC800F3C271 /* Models */,
+				996231B227F3ED5200F3C271 /* Services */,
+				996231B127F3ED4700F3C271 /* ViewModels */,
+				996231B327F3ED9000F3C271 /* Extensions */,
 				996231A327F3E17800F3C271 /* MVVM_BankApp.swift */,
-				996231A527F3E17800F3C271 /* ContentView.swift */,
 				996231A727F3E17C00F3C271 /* Assets.xcassets */,
 				996231A927F3E17C00F3C271 /* Preview Content */,
 			);
@@ -65,6 +96,61 @@
 				996231AA27F3E17C00F3C271 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		996231B127F3ED4700F3C271 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				996231BF27F3F25900F3C271 /* AccountSummaryViewModel.swift */,
+				996231C127F3F29D00F3C271 /* AccountViewModel.swift */,
+				996231CD27F4231200F3C271 /* AddAccountViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		996231B227F3ED5200F3C271 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				996231BD27F3EF9B00F3C271 /* AccoutService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		996231B327F3ED9000F3C271 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				996231B427F3EDA000F3C271 /* Double+Extensions.swift */,
+				996231B627F3EDFF00F3C271 /* URL+Extensions.swift */,
+				996231B827F3EE7300F3C271 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		996231BA27F3EEC800F3C271 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				996231BB27F3EEDA00F3C271 /* Account.swift */,
+				996231C927F4206D00F3C271 /* CreateAccountRequest.swift */,
+				996231CB27F4212B00F3C271 /* CreateAccountResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		996231C327F3F6BE00F3C271 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				996231C427F3F6D000F3C271 /* AccountSummaryScreen.swift */,
+				996231D027F42B6900F3C271 /* AddAccountScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		996231C627F3F86700F3C271 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				996231C727F3F87200F3C271 /* AccountListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +223,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996231A627F3E17800F3C271 /* ContentView.swift in Sources */,
+				996231B527F3EDA000F3C271 /* Double+Extensions.swift in Sources */,
+				996231B727F3EDFF00F3C271 /* URL+Extensions.swift in Sources */,
+				996231C527F3F6D000F3C271 /* AccountSummaryScreen.swift in Sources */,
+				996231CE27F4231200F3C271 /* AddAccountViewModel.swift in Sources */,
+				996231B927F3EE7300F3C271 /* View+Extensions.swift in Sources */,
+				996231C827F3F87200F3C271 /* AccountListView.swift in Sources */,
+				996231C227F3F29D00F3C271 /* AccountViewModel.swift in Sources */,
+				996231CC27F4212B00F3C271 /* CreateAccountResponse.swift in Sources */,
 				996231A427F3E17800F3C271 /* MVVM_BankApp.swift in Sources */,
+				996231D127F42B6900F3C271 /* AddAccountScreen.swift in Sources */,
+				996231BE27F3EF9B00F3C271 /* AccoutService.swift in Sources */,
+				996231CA27F4206D00F3C271 /* CreateAccountRequest.swift in Sources */,
+				996231BC27F3EEDA00F3C271 /* Account.swift in Sources */,
+				996231C027F3F25900F3C271 /* AccountSummaryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
