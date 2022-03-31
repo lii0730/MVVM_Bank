@@ -65,4 +65,29 @@ class AccountService {
         }.resume()
     }
     
+    func transferFunds(transferRequest: TransferRequest, completion: @escaping (Result<TransferResponse, NetworkError>) -> Void) {
+        guard let url = URL.urlForTransferAccounts() else {
+            return completion(.failure(.badUrl))
+        }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpBody = try? JSONEncoder().encode(transferRequest)
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {
+                return completion(.failure(.noData))
+            }
+            
+            let transferResponse = try? JSONDecoder().decode(TransferResponse.self, from: data)
+            
+            if let transferResponse = transferResponse {
+                completion(.success(transferResponse))
+            } else {
+                completion(.failure(.decodingError))
+            }
+        }.resume()
+    }
+    
 }

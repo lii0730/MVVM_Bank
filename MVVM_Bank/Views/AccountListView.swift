@@ -14,7 +14,7 @@ struct AccountListView: View {
     var body: some View {
         List(accounts, id: \.accountId) { account in
             AccountCell(account: account)
-        }
+        }.listStyle(.plain)
     }
 }
 

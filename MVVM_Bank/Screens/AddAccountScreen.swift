@@ -29,6 +29,7 @@ struct AddAccountScreen: View {
                 Button("Submit") {
                     self.addAccountVM.createAccount { success in
                         if success {
+                            // 계좌 개설 성공
                             self.presentationMode.wrappedValue.dismiss()
                         }
                     }
